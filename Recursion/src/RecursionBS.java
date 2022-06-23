@@ -10,7 +10,7 @@ public class RecursionBS {
         if(start>end){
             return -1;
         }
-         //Body Part which is temporary for perticular function call
+         //Body Part which is temporary for particular function call
         int mid=start+(end-start)/2;
         if(arr[mid]==target){
             return mid;
